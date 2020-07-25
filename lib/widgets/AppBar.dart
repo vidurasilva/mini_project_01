@@ -19,7 +19,7 @@ class MyAppBar extends StatelessWidget {
       child: Column(
         children: <Widget>[
           SizedBox(
-            height: 25,
+            height: 24,
           ),
           Text(
             'Event Reminder',
