@@ -31,7 +31,7 @@ class MyAppBar extends StatelessWidget {
             textAlign: TextAlign.start,
           ),
           SizedBox(
-            height: 15,
+            height: 10,
           )
         ],
       ),
