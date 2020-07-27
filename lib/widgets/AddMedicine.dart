@@ -39,7 +39,7 @@ class _AddMedicineState extends State<AddMedicine> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  'Add New Medicine',
+                  'Add New Events',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
@@ -65,7 +65,7 @@ class _AddMedicineState extends State<AddMedicine> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Shape',
+                'Resons',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 25),
               ),
             ),
@@ -90,7 +90,7 @@ class _AddMedicineState extends State<AddMedicine> {
                 textColor: Colors.white,
                 highlightColor: Theme.of(context).primaryColor,
                 child: Text(
-                  'Add Medicine'.toUpperCase(),
+                  'Add Event'.toUpperCase(),
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -124,7 +124,7 @@ class _AddMedicineState extends State<AddMedicine> {
           TextFormField(
             style: TextStyle(fontSize: 25),
             decoration: InputDecoration(
-              labelText: 'Name',
+              labelText: 'Event Name',
               labelStyle: labelsStyle,
             ),
             validator: (input) => (input.length < 5) ? 'Name is short' : null,
@@ -133,10 +133,10 @@ class _AddMedicineState extends State<AddMedicine> {
           TextFormField(
             style: TextStyle(fontSize: 25),
             decoration: InputDecoration(
-              labelText: 'Dose',
+              labelText: 'Date',
               labelStyle: labelsStyle,
             ),
-            validator: (input) => (input.length > 50) ? 'Dose is long' : null,
+            validator: (input) => (input.length > 50) ? 'Date is long' : null,
             onSaved: (input) => _dose = input,
           )
         ],
