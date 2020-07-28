@@ -65,7 +65,7 @@ class _AddMedicineState extends State<AddMedicine> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Resons',
+                'Resons of Event',
                 style: TextStyle(fontWeight: FontWeight.w300, fontSize: 25),
               ),
             ),
