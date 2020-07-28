@@ -90,7 +90,7 @@ class _AddMedicineState extends State<AddMedicine> {
                 textColor: Colors.white,
                 highlightColor: Theme.of(context).primaryColor,
                 child: Text(
-                  'Add Event'.toUpperCase(),
+                  'Add Events'.toUpperCase(),
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
